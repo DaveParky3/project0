@@ -1,0 +1,16 @@
+$head-color: green;
+
+h1 {
+    color: $head-color
+}
+
+table {
+    width: auto;
+    padding: 5px;
+   
+}
+
+th, tr, td {
+    border: 1px solid black;
+
+}
