@@ -1,0 +1,111 @@
+.heading {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background: url("assets/background.png");
+  height: 100px;
+  background-size: cover;
+}
+
+@media (max-width: 766px) {
+  header {
+    height: 200px;
+  }
+}
+@media (max-width: 575px) {
+  header {
+    height: 300px;
+  }
+}
+h1 {
+  color: lightcoral;
+  font-size: 40px;
+}
+
+h2 {
+  padding: 15px 0 15px 0;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.col-md:hover {
+  background-color: black;
+}
+
+.col-md {
+  border: 5px solid black;
+  margin-left: 5px;
+}
+
+@media (max-width: 766px) {
+  .col-md {
+    border: none;
+  }
+
+  button {
+    background-color: black;
+    min-width: 90px;
+    margin: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .col-sm-2 {
+    border: none;
+    font-weight: bold;
+  }
+
+  button {
+    background-color: black;
+    min-width: 90px;
+    margin: 5px;
+  }
+}
+table {
+  border: 5px solid black;
+  font-size: 40px;
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  background-color: lightgray;
+}
+
+td:hover {
+  background-color: lightcoral;
+}
+
+a {
+  color: lightcoral;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: lightcoral;
+}
+
+#pic-heading {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

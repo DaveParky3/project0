@@ -2,27 +2,58 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" 
+        crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+
 
     </head>
     <body>
-        <header class="header">
-            <h1>Welcome to Daivde's Website</h1>
-            <div>
-                <ul>
-                    <li>About Me</li>
-                    <li>Career</li>
-                    <li>Contacts</li>
-                </ul>
-            </div>
+        <header class="container">
+                <!-- <img src="background.png" title="background-Davide" width="80%"> -->
+
+            <h1 class="heading">Welcome to Davide's Website</h1>
+                <nav class="row">
+                    <div class="col-sm-2 col-md">
+                        <button><a href="#aboutme" >About Me</a></button>
+                    </div>
+                    <div class="col-sm-2 col-md">
+                            <button> <a href="/career.html" >Career</a></button>
+                    </div>                        
+                    <div class="col-sm-2 col-md">
+                            <button> <a href="/videos.html" target="_blank">Videos</a></button>
+                    </div>
+                    <div class="col-sm-2 col-md">
+                            <button> <a href="#">Social</a></button>
+                    </div>
+                    <div class="col-sm-2 col-md">
+                            <button> <a href="/contacts.html">Contacts</a></button>
+                    </div>
+                </nav>
         </header>
-        <main class="main">
-            <h2>About Me</h2>
+        <main class="container" >
+    
+            <h2 name="aboutme" class="heading">About Me</h2>
             <h3>Sound Engineer with big a passion for surfing, skateboarding and travelling.</h3>
                 <p>I am a self-motivated audio engineer with a professional background in post production for film, TV and Games.
                     Following on from my degree in sound engineering I have worked both freelance and within a facility as an audio professional.  
                     I have spent the past five years working in the editorial and mixing departments of several independent film productions and,              
                     during the past year I worked as Assistant Sound Editor in-house at Phenomen films UK.</p>
+
+            <h3>Hobbies</h3>
+                <ul>
+                    <li>Surfing</li>
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Healthy Stuff</li>
+                </ul>
+
+            <h3 id="pic-heading">Pictures</h3>
+            <div class="heading">
+                    <img src="assets/lionme.png" title="Lion Me" width="300px">
+                    <img src="assets/penme.jpg" title="Pen Me" width="300px">
+            </div>   
         </main>
         <footer>
 
